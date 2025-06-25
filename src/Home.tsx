@@ -13,6 +13,7 @@ function Home() {
       <button onClick={() => {
         const e = document.getElementById("input") as HTMLInputElement || null
         handle(e)
+        
       }}>Submit</button>
     </div>
   )
